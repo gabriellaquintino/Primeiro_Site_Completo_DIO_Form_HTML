@@ -1,0 +1,193 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color:  rgb(246, 248, 248);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(246, 248, 248);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 20px;
+    border-right: 2px solid #ddd;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Corrigi o valor do box-shadow */
+    color: #3b3937;
+    margin-top: 0px; /* Mantido, mas pode não estar influenciando */
+    padding-top: 10px; /* Diminui o padding superior */
+}
+
+.menu h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 10px; /* Remove margem superior, se houver */
+    text-align: center;
+}
+
+.menu hr {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    padding: 0; /* Remove padding que pode estar causando o deslocamento */
+    margin: 0; /* Remove margem extra */
+}
+
+.menu li {
+    margin: 20px 0; /* Ajusta a margem entre os itens */
+    list-style-type: none;
+   
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #3b3937;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o ícone e o texto */
+}
+
+.menu li a i {
+    margin-right: 10px; /* Ajusta o espaçamento entre ícone e texto */
+    font-size: 20px;
+}
+
+.header h1 {
+    background-color:rgb(246, 248, 248);
+    min-height: 70px;
+    font-size: 48px;
+    align-items: center;
+    margin-top: -75px;
+    text-align: center;
+    color: #333;
+
+    
+    
+}
+.content {
+    background-color: rgb(246, 248, 248);
+    min-height: 300px;
+    padding: 10px;
+}
+
+.content .info-important {
+    color: #333;
+    
+}
+
+ 
+.footer {
+    background-color:  rgb(185, 221, 221);
+    min-height: 150px;
+}
+
+.image-content{
+    display: flex;
+    justify-content:space-between;
+
+
+}
+
+.image-content img {
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+.info-important {
+
+    
+    margin: 20px;
+
+
+}
+
+.logo img{
+
+    margin-left: 20px;
+}
+
+.footer {
+    background-color:rgb(246, 248, 248);
+    padding: 20px 0;
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin: 10px;
+    margin-top: 60px;
+}
+
+.footer .rodape,
+.footer .redes_sociais {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer .rodape h5,
+.footer .redes_sociais h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.footer .rodape p,
+.footer .redes_sociais p {
+    margin: 5px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer .rodape p i,
+.footer .redes_sociais p i {
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.footer .img_bandeira_cartoes{
+    max-width: 400px;
+   
+    display : inline-block;
+    margin-top: -60px;
+    align-items: center;
+}
+
+
+.footer .img_redes_sociais{
+    max-width: 200px;
+    display : inline-block;
+    margin-left: 20px;
+}
+
+.divisor_footer{
+
+    margin-top: 200px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+
+
